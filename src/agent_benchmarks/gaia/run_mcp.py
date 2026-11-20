@@ -33,6 +33,7 @@ Example:
 from __future__ import annotations
 
 import argparse
+import shutil
 import os
 import sys
 from pathlib import Path
@@ -202,6 +203,10 @@ def main(argv: list[str] | None = None) -> int:
         if not ok:
             print(f"error: {hint}", file=sys.stderr)
             return 2
+    elif args.backend == "pilotfish":
+        if shutil.which("npx") is None:
+            print("error: --backend pilotfish needs Node.js 20+ with npx on PATH", file=sys.stderr)
+            return 2
 
     out_dir = resolve_out_dir(args.out_dir, PROJECT_ROOT, f"gaia-mcp/{args.backend}")
     predictions_path = out_dir / "predictions.jsonl"
@@ -240,6 +245,10 @@ def main(argv: list[str] | None = None) -> int:
             file=sys.stderr,
         )
 
+    # BENCH_IDS: a comma-separated list of task ids to run (in the dataset's order), for a declared subset.
+    if os.environ.get("BENCH_IDS"):
+        wanted = set(os.environ["BENCH_IDS"].split(","))
+        rows = [r for r in rows if r["task_id"] in wanted]
     if args.limit is not None:
         rows = rows[: args.limit]
 
