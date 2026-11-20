@@ -1,0 +1,298 @@
+{
+  "agent_provider": "claude-mcp-lightpanda",
+  "agent_model": "claude-sonnet-4-6",
+  "argv": [
+    ".venv-pf\\Scripts\\gaia-mcp-run",
+    "--backend",
+    "lightpanda",
+    "--model",
+    "claude-sonnet-4-6",
+    "--workers",
+    "4",
+    "--timeout",
+    "1800",
+    "--resume",
+    "--out-dir",
+    "results/h2h/gaia-lightpanda"
+  ],
+  "started_at": "2026-11-20T19:29:28.398723+00:00",
+  "n_tasks": 15,
+  "n_answered": 15,
+  "timeouts": 0,
+  "accuracy": 0.6666666666666666,
+  "accuracy_soft": 0.6666666666666666,
+  "by_level": {
+    "1": {
+      "n": 15,
+      "accuracy": 0.6666666666666666,
+      "accuracy_soft": 0.6666666666666666
+    }
+  },
+  "avg_duration_s": 100.86133333333333,
+  "n_with_usage": 15,
+  "avg_input_tokens": 16.733333333333334,
+  "avg_cache_read_input_tokens": 265584.26666666666,
+  "avg_cache_creation_input_tokens": 23983.066666666666,
+  "avg_output_tokens": 84.46666666666667,
+  "avg_num_turns": 9.6,
+  "avg_final_turn_input_tokens": 30996.133333333335,
+  "avg_total_cost_usd": 0.20274147999999997,
+  "total_cost_usd": 3.0411221999999998,
+  "per_task": [
+    {
+      "id": "a1e91b78-d3d8-4675-bb8d-62741b4b68a6",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 26.81,
+      "usage": {
+        "input_tokens": 16,
+        "cache_read_input_tokens": 190670,
+        "cache_creation_input_tokens": 14162,
+        "output_tokens": 54,
+        "num_turns": 8,
+        "final_turn_input_tokens": 27766,
+        "total_cost_usd": 0.0829905
+      }
+    },
+    {
+      "id": "8e867cd7-cff9-4e6c-867a-ff5ddc2550be",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 39.83,
+      "usage": {
+        "input_tokens": 20,
+        "cache_read_input_tokens": 334072,
+        "cache_creation_input_tokens": 51418,
+        "output_tokens": 90,
+        "num_turns": 12,
+        "final_turn_input_tokens": 46394,
+        "total_cost_usd": 0.22750979999999998
+      }
+    },
+    {
+      "id": "e1fc63a2-da7a-432f-be78-7c4a95598703",
+      "level": "1",
+      "score": 0.0,
+      "score_soft": 0.0,
+      "timed_out": false,
+      "duration_s": 48.03,
+      "usage": {
+        "input_tokens": 17,
+        "cache_read_input_tokens": 161402,
+        "cache_creation_input_tokens": 46271,
+        "output_tokens": 44,
+        "num_turns": 7,
+        "final_turn_input_tokens": 43152,
+        "total_cost_usd": 0.18969750000000002
+      }
+    },
+    {
+      "id": "4b6bb5f7-f634-410e-815d-e673ab7f8632",
+      "level": "1",
+      "score": 0.0,
+      "score_soft": 0.0,
+      "timed_out": false,
+      "duration_s": 27.42,
+      "usage": {
+        "input_tokens": 17,
+        "cache_read_input_tokens": 216054,
+        "cache_creation_input_tokens": 14284,
+        "output_tokens": 72,
+        "num_turns": 9,
+        "final_turn_input_tokens": 26932,
+        "total_cost_usd": 0.0802872
+      }
+    },
+    {
+      "id": "2d83110e-a098-4ebb-9987-066c06fa42d0",
+      "level": "1",
+      "score": 0.0,
+      "score_soft": 0.0,
+      "timed_out": false,
+      "duration_s": 5.47,
+      "usage": {
+        "input_tokens": 0,
+        "cache_read_input_tokens": 0,
+        "cache_creation_input_tokens": 0,
+        "output_tokens": 0,
+        "num_turns": 1,
+        "final_turn_input_tokens": 0,
+        "total_cost_usd": 0.0296652
+      }
+    },
+    {
+      "id": "cffe0e32-c9a6-4c52-9877-78ceb4aaa9fb",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 39.16,
+      "usage": {
+        "input_tokens": 6,
+        "cache_read_input_tokens": 41368,
+        "cache_creation_input_tokens": 6340,
+        "output_tokens": 4,
+        "num_turns": 2,
+        "final_turn_input_tokens": 23857,
+        "total_cost_usd": 0.0664842
+      }
+    },
+    {
+      "id": "27d5d136-8563-469e-92bf-fd103c28b57c",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 22.14,
+      "usage": {
+        "input_tokens": 6,
+        "cache_read_input_tokens": 41368,
+        "cache_creation_input_tokens": 5742,
+        "output_tokens": 4,
+        "num_turns": 2,
+        "final_turn_input_tokens": 23558,
+        "total_cost_usd": 0.045505199999999996
+      }
+    },
+    {
+      "id": "dc28cf18-6431-458b-83ef-64b3ce566c10",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 39.62,
+      "usage": {
+        "input_tokens": 6,
+        "cache_read_input_tokens": 41368,
+        "cache_creation_input_tokens": 5848,
+        "output_tokens": 16,
+        "num_turns": 2,
+        "final_turn_input_tokens": 23611,
+        "total_cost_usd": 0.06211320000000001
+      }
+    },
+    {
+      "id": "5cfb274c-0207-4aa7-9575-6ac0bd95d9b2",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 82.77,
+      "usage": {
+        "input_tokens": 30,
+        "cache_read_input_tokens": 374446,
+        "cache_creation_input_tokens": 32804,
+        "output_tokens": 100,
+        "num_turns": 14,
+        "final_turn_input_tokens": 37087,
+        "total_cost_usd": 0.21081390000000003
+      }
+    },
+    {
+      "id": "42576abe-0deb-4869-8c63-225c2d75a95a",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 14.34,
+      "usage": {
+        "input_tokens": 6,
+        "cache_read_input_tokens": 41368,
+        "cache_creation_input_tokens": 5944,
+        "output_tokens": 4,
+        "num_turns": 2,
+        "final_turn_input_tokens": 23659,
+        "total_cost_usd": 0.0323712
+      }
+    },
+    {
+      "id": "b816bfce-3d80-4913-a07d-69b752ce6377",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 30.22,
+      "usage": {
+        "input_tokens": 16,
+        "cache_read_input_tokens": 191958,
+        "cache_creation_input_tokens": 19440,
+        "output_tokens": 66,
+        "num_turns": 8,
+        "final_turn_input_tokens": 30405,
+        "total_cost_usd": 0.1023177
+      }
+    },
+    {
+      "id": "cca530fc-4052-43b2-b130-b30968d8aa44",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 73.5,
+      "usage": {
+        "input_tokens": 35,
+        "cache_read_input_tokens": 667413,
+        "cache_creation_input_tokens": 30512,
+        "output_tokens": 214,
+        "num_turns": 23,
+        "final_turn_input_tokens": 36133,
+        "total_cost_usd": 0.2387328
+      }
+    },
+    {
+      "id": "46719c30-f4c3-4cad-be07-d5cb21eee6bb",
+      "level": "1",
+      "score": 0.0,
+      "score_soft": 0.0,
+      "timed_out": false,
+      "duration_s": 241.3,
+      "usage": {
+        "input_tokens": 34,
+        "cache_read_input_tokens": 865336,
+        "cache_creation_input_tokens": 72809,
+        "output_tokens": 227,
+        "num_turns": 26,
+        "final_turn_input_tokens": 55605,
+        "total_cost_usd": 0.5174679
+      }
+    },
+    {
+      "id": "b415aba4-4b68-4fc6-9b89-2c812e55a3e1",
+      "level": "1",
+      "score": 0.0,
+      "score_soft": 0.0,
+      "timed_out": false,
+      "duration_s": 109.47,
+      "usage": {
+        "input_tokens": 33,
+        "cache_read_input_tokens": 754889,
+        "cache_creation_input_tokens": 44565,
+        "output_tokens": 348,
+        "num_turns": 25,
+        "final_turn_input_tokens": 42880,
+        "total_cost_usd": 0.34042649999999997
+      }
+    },
+    {
+      "id": "ec09fa32-d03f-4bf8-84b0-1f16922c3ae4",
+      "level": "1",
+      "score": 1.0,
+      "score_soft": 1.0,
+      "timed_out": false,
+      "duration_s": 712.84,
+      "usage": {
+        "input_tokens": 9,
+        "cache_read_input_tokens": 62052,
+        "cache_creation_input_tokens": 9607,
+        "output_tokens": 24,
+        "num_turns": 3,
+        "final_turn_input_tokens": 23903,
+        "total_cost_usd": 0.8147393999999999
+      }
+    }
+  ]
+}

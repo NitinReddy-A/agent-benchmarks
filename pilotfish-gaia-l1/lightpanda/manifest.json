@@ -1,0 +1,19 @@
+{
+  "agent_provider": "claude-mcp-lightpanda",
+  "agent_model": "claude-sonnet-4-6",
+  "argv": [
+    ".venv-pf\\Scripts\\gaia-mcp-run",
+    "--backend",
+    "lightpanda",
+    "--model",
+    "claude-sonnet-4-6",
+    "--workers",
+    "4",
+    "--timeout",
+    "1800",
+    "--resume",
+    "--out-dir",
+    "results/h2h/gaia-lightpanda"
+  ],
+  "started_at": "2026-11-20T19:29:28.398723+00:00"
+}

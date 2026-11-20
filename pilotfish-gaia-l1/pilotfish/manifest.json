@@ -1,0 +1,18 @@
+{
+  "agent_provider": "claude-mcp-pilotfish",
+  "agent_model": "claude-sonnet-4-6",
+  "argv": [
+    ".venv-pf\\Scripts\\gaia-mcp-run",
+    "--backend",
+    "pilotfish",
+    "--model",
+    "claude-sonnet-4-6",
+    "--workers",
+    "4",
+    "--timeout",
+    "1800",
+    "--out-dir",
+    "results/h2h/gaia-pilotfish-v3"
+  ],
+  "started_at": "2026-11-20T21:48:47.623478+00:00"
+}
