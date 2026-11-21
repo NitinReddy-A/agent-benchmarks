@@ -1,5 +1,7 @@
 # pilotfish MCP on GAIA Level 1 (15 tasks), through this harness
 
+> Superseded by [`pilotfish-full-0.1.72/`](../pilotfish-full-0.1.72/): the full GAIA Level 1 (53) and AssistantBench (33) sets on pilotfish 0.1.72. This folder is the earlier 15-task subset on 0.1.71, kept as it was linked in the issue.
+
 Run by the pilotfish team for lightpanda-io/agent-benchmarks#17. Both tools ran on the same machine, network, model,
 harness and prompt, one after the other, never at once.
 

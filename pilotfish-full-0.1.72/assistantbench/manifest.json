@@ -1,0 +1,19 @@
+{
+  "agent_provider": "claude-mcp-pilotfish",
+  "agent_model": "claude-sonnet-4-6",
+  "argv": [
+    ".venv/bin/assistantbench-mcp-run",
+    "--backend",
+    "pilotfish",
+    "--model",
+    "claude-sonnet-4-6",
+    "--workers",
+    "4",
+    "--timeout",
+    "1800",
+    "--resume",
+    "--out-dir",
+    "results/full-0.1.72/assistantbench"
+  ],
+  "started_at": "2026-11-21T10:16:30.502800+00:00"
+}

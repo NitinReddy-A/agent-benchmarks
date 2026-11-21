@@ -1,0 +1,576 @@
+{
+  "agent_provider": "claude-mcp-pilotfish",
+  "agent_model": "claude-sonnet-4-6",
+  "argv": [
+    ".venv/bin/assistantbench-mcp-run",
+    "--backend",
+    "pilotfish",
+    "--model",
+    "claude-sonnet-4-6",
+    "--workers",
+    "4",
+    "--timeout",
+    "1800",
+    "--resume",
+    "--out-dir",
+    "results/full-0.1.72/assistantbench"
+  ],
+  "started_at": "2026-11-21T10:16:30.502800+00:00",
+  "n_tasks": 33,
+  "n_answered": 33,
+  "timeouts": 0,
+  "accuracy_soft": 0.6728411156046064,
+  "accuracy_strict": 0.7272727272727273,
+  "by_difficulty": {
+    "Hard": {
+      "n": 19,
+      "accuracy_soft": 0.6214273056378319,
+      "accuracy_strict": 0.631578947368421
+    },
+    "Medium": {
+      "n": 14,
+      "accuracy_soft": 0.7426170005595144,
+      "accuracy_strict": 0.8571428571428571
+    }
+  },
+  "avg_duration_s": 429.00666666666666,
+  "n_with_usage": 33,
+  "avg_input_tokens": 70.24242424242425,
+  "avg_cache_read_input_tokens": 3009348.9393939395,
+  "avg_cache_creation_input_tokens": 151853.51515151514,
+  "avg_output_tokens": 589.1515151515151,
+  "avg_num_turns": 60.0,
+  "avg_final_turn_input_tokens": 57293.878787878784,
+  "avg_total_cost_usd": 1.062874909090909,
+  "total_cost_usd": 35.074872,
+  "per_task": [
+    {
+      "id": "2ddae3b7a208e3c25f14d82d7a1faaaa1832fbf950b4dac345e755c4c361f294",
+      "difficulty": "Medium",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 90.56,
+      "usage": {
+        "input_tokens": 33,
+        "cache_read_input_tokens": 427373,
+        "cache_creation_input_tokens": 47660,
+        "output_tokens": 191,
+        "num_turns": 25,
+        "final_turn_input_tokens": 28480,
+        "total_cost_usd": 0.2195292
+      }
+    },
+    {
+      "id": "2aa5dd83fbcd0dce9a3dd4592106e5b5edf738008d932e357d477bba80e59ccf",
+      "difficulty": "Medium",
+      "score": 0.0,
+      "timed_out": false,
+      "duration_s": 188.18,
+      "usage": {
+        "input_tokens": 71,
+        "cache_read_input_tokens": 1609478,
+        "cache_creation_input_tokens": 97684,
+        "output_tokens": 607,
+        "num_turns": 63,
+        "final_turn_input_tokens": 44572,
+        "total_cost_usd": 0.5226531
+      }
+    },
+    {
+      "id": "b36ef2d8f2643b80e74a44ce3403f674ecb2aed7fd36afeaa289061a59feef92",
+      "difficulty": "Hard",
+      "score": 0.75,
+      "timed_out": false,
+      "duration_s": 419.53,
+      "usage": {
+        "input_tokens": 52,
+        "cache_read_input_tokens": 1111657,
+        "cache_creation_input_tokens": 122162,
+        "output_tokens": 351,
+        "num_turns": 42,
+        "final_turn_input_tokens": 51311,
+        "total_cost_usd": 0.6741948
+      }
+    },
+    {
+      "id": "c7afe00869f98cf363fd83677ac41757ed5e57f03eacc3d1304feb0a92084bd1",
+      "difficulty": "Medium",
+      "score": 0.5,
+      "timed_out": false,
+      "duration_s": 115.52,
+      "usage": {
+        "input_tokens": 32,
+        "cache_read_input_tokens": 366284,
+        "cache_creation_input_tokens": 52994,
+        "output_tokens": 153,
+        "num_turns": 22,
+        "final_turn_input_tokens": 27433,
+        "total_cost_usd": 0.242931
+      }
+    },
+    {
+      "id": "57d9dc6935e8a40b02e7f8ec81768fe70e68a0c05f6866927c9fda38db38a486",
+      "difficulty": "Hard",
+      "score": 0.9333333333333333,
+      "timed_out": false,
+      "duration_s": 64.86,
+      "usage": {
+        "input_tokens": 17,
+        "cache_read_input_tokens": 98983,
+        "cache_creation_input_tokens": 14737,
+        "output_tokens": 58,
+        "num_turns": 9,
+        "final_turn_input_tokens": 15623,
+        "total_cost_usd": 0.1020018
+      }
+    },
+    {
+      "id": "797f7a5b65ca28b7e7156e7db1e9f117bd4a021de0cd512bfdbb0be897d89eab",
+      "difficulty": "Hard",
+      "score": 0.0,
+      "timed_out": false,
+      "duration_s": 618.06,
+      "usage": {
+        "input_tokens": 86,
+        "cache_read_input_tokens": 3811829,
+        "cache_creation_input_tokens": 186173,
+        "output_tokens": 814,
+        "num_turns": 78,
+        "final_turn_input_tokens": 91262,
+        "total_cost_usd": 1.4660156999999996
+      }
+    },
+    {
+      "id": "9e31099fffa6a3891c94934fd4fc2f3f522d51c1904ff3561f3a10e4bf245821",
+      "difficulty": "Medium",
+      "score": 0.8,
+      "timed_out": false,
+      "duration_s": 353.22,
+      "usage": {
+        "input_tokens": 48,
+        "cache_read_input_tokens": 1148635,
+        "cache_creation_input_tokens": 109880,
+        "output_tokens": 312,
+        "num_turns": 38,
+        "final_turn_input_tokens": 59064,
+        "total_cost_usd": 0.7278344999999999
+      }
+    },
+    {
+      "id": "a9074997e698f912b9e751779ea19c1e92fa148404e90e0ae997acea3f9559b0",
+      "difficulty": "Hard",
+      "score": 0.7407407407407409,
+      "timed_out": false,
+      "duration_s": 1075.25,
+      "usage": {
+        "input_tokens": 114,
+        "cache_read_input_tokens": 8211933,
+        "cache_creation_input_tokens": 432148,
+        "output_tokens": 897,
+        "num_turns": 104,
+        "final_turn_input_tokens": 162717,
+        "total_cost_usd": 2.4709551
+      }
+    },
+    {
+      "id": "8fa42360185068216f2919935148d4e1ad28ddc18da0abd0f4bb0b6b6f84b127",
+      "difficulty": "Medium",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 63.19,
+      "usage": {
+        "input_tokens": 21,
+        "cache_read_input_tokens": 124223,
+        "cache_creation_input_tokens": 19646,
+        "output_tokens": 78,
+        "num_turns": 11,
+        "final_turn_input_tokens": 17970,
+        "total_cost_usd": 0.1286448
+      }
+    },
+    {
+      "id": "291b53e665b4dd4365cde995042db4a6f6fecef3fe3a6f4482f23d61bd673918",
+      "difficulty": "Hard",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 144.29,
+      "usage": {
+        "input_tokens": 38,
+        "cache_read_input_tokens": 627173,
+        "cache_creation_input_tokens": 51063,
+        "output_tokens": 313,
+        "num_turns": 30,
+        "final_turn_input_tokens": 36574,
+        "total_cost_usd": 0.3817914
+      }
+    },
+    {
+      "id": "4e615af6f0348597b4133cc1ec5418bb3f35328e3d95e23a275027cee97b5e09",
+      "difficulty": "Hard",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 1134.09,
+      "usage": {
+        "input_tokens": 182,
+        "cache_read_input_tokens": 15936413,
+        "cache_creation_input_tokens": 365353,
+        "output_tokens": 1887,
+        "num_turns": 172,
+        "final_turn_input_tokens": 166288,
+        "total_cost_usd": 4.1154567
+      }
+    },
+    {
+      "id": "6b06d186921b8b390c65aebd0d16f09f60a47d2f1288ebe36953f734e84c0a3c",
+      "difficulty": "Hard",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 151.89,
+      "usage": {
+        "input_tokens": 44,
+        "cache_read_input_tokens": 676073,
+        "cache_creation_input_tokens": 83157,
+        "output_tokens": 291,
+        "num_turns": 32,
+        "final_turn_input_tokens": 41646,
+        "total_cost_usd": 0.3929412
+      }
+    },
+    {
+      "id": "557e78eceec08ca8b0da5f9fdaca6e1c7ec6140a8ce600983ee716327dab005e",
+      "difficulty": "Hard",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 35.42,
+      "usage": {
+        "input_tokens": 19,
+        "cache_read_input_tokens": 129976,
+        "cache_creation_input_tokens": 16359,
+        "output_tokens": 62,
+        "num_turns": 11,
+        "final_turn_input_tokens": 16437,
+        "total_cost_usd": 0.07885619999999999
+      }
+    },
+    {
+      "id": "fb9ba3ab6a13d0adc677f993e90d54914a5cdf211305a1bba6bf16ec4ccb9b7c",
+      "difficulty": "Medium",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 12.29,
+      "usage": {
+        "input_tokens": 14,
+        "cache_read_input_tokens": 60794,
+        "cache_creation_input_tokens": 6700,
+        "output_tokens": 34,
+        "num_turns": 6,
+        "final_turn_input_tokens": 12264,
+        "total_cost_usd": 0.0357801
+      }
+    },
+    {
+      "id": "3af8028c2a59e28ca88baff0e6d91f2a9f170c5ef91003f1c8406755a2760ad4",
+      "difficulty": "Medium",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 401.21,
+      "usage": {
+        "input_tokens": 98,
+        "cache_read_input_tokens": 3980761,
+        "cache_creation_input_tokens": 141809,
+        "output_tokens": 1057,
+        "num_turns": 90,
+        "final_turn_input_tokens": 81560,
+        "total_cost_usd": 1.3387298999999997
+      }
+    },
+    {
+      "id": "52f7224e9c79431e7926afe317782711a0028750693e7456cde22ef6f4bd8bd5",
+      "difficulty": "Medium",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 192.93,
+      "usage": {
+        "input_tokens": 64,
+        "cache_read_input_tokens": 1256417,
+        "cache_creation_input_tokens": 87247,
+        "output_tokens": 479,
+        "num_turns": 52,
+        "final_turn_input_tokens": 46939,
+        "total_cost_usd": 0.5444442
+      }
+    },
+    {
+      "id": "6f224e7730ed027cbac73aebb1aea7f954053082041b02b19f4ff126a0a8a208",
+      "difficulty": "Hard",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 110.88,
+      "usage": {
+        "input_tokens": 29,
+        "cache_read_input_tokens": 326892,
+        "cache_creation_input_tokens": 51533,
+        "output_tokens": 138,
+        "num_turns": 19,
+        "final_turn_input_tokens": 30208,
+        "total_cost_usd": 0.2540598
+      }
+    },
+    {
+      "id": "99da66d8af02491f98b98c56b26c709e773b5a2ad945fb280375951ba600de09",
+      "difficulty": "Medium",
+      "score": 0.9367088607594937,
+      "timed_out": false,
+      "duration_s": 74.92,
+      "usage": {
+        "input_tokens": 34,
+        "cache_read_input_tokens": 295684,
+        "cache_creation_input_tokens": 25940,
+        "output_tokens": 188,
+        "num_turns": 20,
+        "final_turn_input_tokens": 21997,
+        "total_cost_usd": 0.17920709999999995
+      }
+    },
+    {
+      "id": "9bdca8677af1e25cb7b0c7992dc62670c3e58e4afcd5ae60bcaa2483556bba00",
+      "difficulty": "Medium",
+      "score": 0.7562874251497006,
+      "timed_out": false,
+      "duration_s": 728.75,
+      "usage": {
+        "input_tokens": 213,
+        "cache_read_input_tokens": 11663748,
+        "cache_creation_input_tokens": 324673,
+        "output_tokens": 2207,
+        "num_turns": 195,
+        "final_turn_input_tokens": 16358,
+        "total_cost_usd": 3.3835379999999993
+      }
+    },
+    {
+      "id": "0ec4371851b96837b0a81b3dd3df401415061bb532fbafeb4609f3337c358508",
+      "difficulty": "Hard",
+      "score": 0.6666666666666666,
+      "timed_out": false,
+      "duration_s": 512.2,
+      "usage": {
+        "input_tokens": 75,
+        "cache_read_input_tokens": 2560078,
+        "cache_creation_input_tokens": 197172,
+        "output_tokens": 551,
+        "num_turns": 65,
+        "final_turn_input_tokens": 78075,
+        "total_cost_usd": 1.0428447
+      }
+    },
+    {
+      "id": "ccec2229ced20a4b0cb4897e3a99120a3017ea030903e01c9bda6b13d40b0b14",
+      "difficulty": "Medium",
+      "score": 0.0,
+      "timed_out": false,
+      "duration_s": 458.92,
+      "usage": {
+        "input_tokens": 75,
+        "cache_read_input_tokens": 2183948,
+        "cache_creation_input_tokens": 125035,
+        "output_tokens": 669,
+        "num_turns": 67,
+        "final_turn_input_tokens": 61073,
+        "total_cost_usd": 0.9026919000000001
+      }
+    },
+    {
+      "id": "748899d9d70c09beb3bd48ac8a3658bdcfd2f9114fe6dc4c4b8d2f9541ef4607",
+      "difficulty": "Hard",
+      "score": 0.4,
+      "timed_out": false,
+      "duration_s": 1780.44,
+      "usage": {
+        "input_tokens": 272,
+        "cache_read_input_tokens": 18446858,
+        "cache_creation_input_tokens": 596197,
+        "output_tokens": 2635,
+        "num_turns": 254,
+        "final_turn_input_tokens": 120372,
+        "total_cost_usd": 5.51491965
+      }
+    },
+    {
+      "id": "9baaa267c95f9d8b75741ee9169c50563d297cfa592c20deaffd30dbc5984c74",
+      "difficulty": "Medium",
+      "score": 0.7369750552573414,
+      "timed_out": false,
+      "duration_s": 480.16,
+      "usage": {
+        "input_tokens": 82,
+        "cache_read_input_tokens": 4416320,
+        "cache_creation_input_tokens": 489057,
+        "output_tokens": 661,
+        "num_turns": 72,
+        "final_turn_input_tokens": 41793,
+        "total_cost_usd": 2.17227045
+      }
+    },
+    {
+      "id": "6e3be83d1949fa52cba03fb1ce4b5b3bf7e37a83fd7d67694b10b2e439d90cf8",
+      "difficulty": "Hard",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 588.06,
+      "usage": {
+        "input_tokens": 58,
+        "cache_read_input_tokens": 1645390,
+        "cache_creation_input_tokens": 161724,
+        "output_tokens": 444,
+        "num_turns": 48,
+        "final_turn_input_tokens": 68574,
+        "total_cost_usd": 0.9839591999999999
+      }
+    },
+    {
+      "id": "e2dc3a6b10b762e8aba7fa4d4e70f757f6d04dcbc8b56c48fc53fd9928d31d07",
+      "difficulty": "Medium",
+      "score": 0.6666666666666667,
+      "timed_out": false,
+      "duration_s": 424.74,
+      "usage": {
+        "input_tokens": 98,
+        "cache_read_input_tokens": 4976359,
+        "cache_creation_input_tokens": 273496,
+        "output_tokens": 923,
+        "num_turns": 90,
+        "final_turn_input_tokens": 122389,
+        "total_cost_usd": 1.5981246000000002
+      }
+    },
+    {
+      "id": "f88066d274e265edd6cd9d61cd80a41accb3a14baf2297652fdd05cdf716d455",
+      "difficulty": "Hard",
+      "score": 0.2222222222222222,
+      "timed_out": false,
+      "duration_s": 602.37,
+      "usage": {
+        "input_tokens": 68,
+        "cache_read_input_tokens": 2147151,
+        "cache_creation_input_tokens": 238935,
+        "output_tokens": 478,
+        "num_turns": 56,
+        "final_turn_input_tokens": 103205,
+        "total_cost_usd": 1.2301998000000003
+      }
+    },
+    {
+      "id": "55f4258484c5b398956133128a50462a767da211f8f72aa5ac5bbffb9bcbba1a",
+      "difficulty": "Hard",
+      "score": 0.0,
+      "timed_out": false,
+      "duration_s": 378.35,
+      "usage": {
+        "input_tokens": 60,
+        "cache_read_input_tokens": 1701066,
+        "cache_creation_input_tokens": 142051,
+        "output_tokens": 438,
+        "num_turns": 50,
+        "final_turn_input_tokens": 62793,
+        "total_cost_usd": 0.7849868999999999
+      }
+    },
+    {
+      "id": "929b45f34805280d77c61d1e093e3d4e551d77ddb6ecd73552b12b1af286388d",
+      "difficulty": "Hard",
+      "score": 0.0,
+      "timed_out": false,
+      "duration_s": 82.32,
+      "usage": {
+        "input_tokens": 17,
+        "cache_read_input_tokens": 98959,
+        "cache_creation_input_tokens": 17259,
+        "output_tokens": 58,
+        "num_turns": 9,
+        "final_turn_input_tokens": 16720,
+        "total_cost_usd": 0.13121939999999999
+      }
+    },
+    {
+      "id": "8ad84bd6fe38481ba49e7ad1f6fbd43219a999074e5c6fc940003281f55ec65b",
+      "difficulty": "Hard",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 518.37,
+      "usage": {
+        "input_tokens": 71,
+        "cache_read_input_tokens": 2164780,
+        "cache_creation_input_tokens": 152719,
+        "output_tokens": 590,
+        "num_turns": 63,
+        "final_turn_input_tokens": 63535,
+        "total_cost_usd": 0.91173
+      }
+    },
+    {
+      "id": "4dbedc5e1a0205e14b7ff3ba89bce3060dab15d0ada3b7e1351a6f2aa8287aec",
+      "difficulty": "Hard",
+      "score": 0.0,
+      "timed_out": false,
+      "duration_s": 226.65,
+      "usage": {
+        "input_tokens": 22,
+        "cache_read_input_tokens": 150551,
+        "cache_creation_input_tokens": 31941,
+        "output_tokens": 82,
+        "num_turns": 12,
+        "final_turn_input_tokens": 22980,
+        "total_cost_usd": 0.27084779999999997
+      }
+    },
+    {
+      "id": "cca4776df3c73e7f9430a2e624aafad056b14322a0b7ca6c0c22b7e7f3f0890a",
+      "difficulty": "Hard",
+      "score": 0.25,
+      "timed_out": false,
+      "duration_s": 118.75,
+      "usage": {
+        "input_tokens": 28,
+        "cache_read_input_tokens": 238855,
+        "cache_creation_input_tokens": 35533,
+        "output_tokens": 140,
+        "num_turns": 18,
+        "final_turn_input_tokens": 22927,
+        "total_cost_usd": 0.1903803
+      }
+    },
+    {
+      "id": "e6bc98089608217e45b6956a46518fe3cce64a799b3ac43c6974c449ae14c408",
+      "difficulty": "Hard",
+      "score": 0.8441558441558441,
+      "timed_out": false,
+      "duration_s": 908.88,
+      "usage": {
+        "input_tokens": 122,
+        "cache_read_input_tokens": 5530090,
+        "cache_creation_input_tokens": 226897,
+        "output_tokens": 972,
+        "num_turns": 106,
+        "final_turn_input_tokens": 94406,
+        "total_cost_usd": 1.5698139000000002
+      }
+    },
+    {
+      "id": "efc0f3a47e9ed2ecdbcc037c2093865fe6e39f4d413a5d1ccdc7357160a4606b",
+      "difficulty": "Medium",
+      "score": 1.0,
+      "timed_out": false,
+      "duration_s": 1101.97,
+      "usage": {
+        "input_tokens": 61,
+        "cache_read_input_tokens": 1183784,
+        "cache_creation_input_tokens": 86232,
+        "output_tokens": 684,
+        "num_turns": 51,
+        "final_turn_input_tokens": 43153,
+        "total_cost_usd": 0.5113188000000001
+      }
+    }
+  ]
+}
