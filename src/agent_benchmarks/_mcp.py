@@ -151,7 +151,7 @@ PILOTFISH_TOOLS: tuple[str, ...] = (
 
 # Pinned so a run records exactly what it drove; override with PILOTFISH_MCP_PACKAGE.
 PILOTFISH_MCP_PACKAGE = os.environ.get(
-    "PILOTFISH_MCP_PACKAGE", "@gaiventures/pilotfish-mcp@0.1.71"
+    "PILOTFISH_MCP_PACKAGE", "@gaiventures/pilotfish-mcp@0.1.72"
 )
 
 # MCP server-name keys. These show up in `mcp__<key>__<tool>` allow-list
